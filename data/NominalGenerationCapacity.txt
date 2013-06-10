@@ -262,8 +262,8 @@ Nominal.Thermal.Auckland.KingsWharf            Public supply, surplus to the tra
        1968       .
 
 Nominal.Hydro.Waikato.Horahora                 Head 27' Waihi Mining. First transmission line.
-    10/1913   63000 Six horizontal Francis turbine. Or maybe, commissioned in early February 1914, with power reaching Waihi mines on the 8;th of April.
-       1926  +21000 Two additional generators. Now under government control, first transmission to Auckland.
+    10/1913   6300 Six horizontal Francis turbine. Or maybe, commissioned in early February 1914, with power reaching Waihi mines on the 8;th of April.
+       1926  +2100 Two additional generators. Now under government control, first transmission to Auckland.
    6/4/1947       . Drowned, still turning, by Lake Karapiro.
 
 Nominal.Hydro.Hautapu                          Head 500' small wier then a tunnel.
