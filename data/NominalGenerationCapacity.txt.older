@@ -1,0 +1,1181 @@
+%          These figures are for the nominal generation capacity of the various installations.
+%   Many are described in People, Politics and Power Stations, but recourse was made to whichever source
+%offered details. Unfortunately, these details are not entirely specific. A prime mover may capture energy
+%from a particular source such as steam or water pressure and its associated flow with some level of efficiency,
+%and that energy is converted into electrical power in a generator also not with perfect efficiency.
+%The generator itself usually consumes some power in its operation (as for field coils) and this may not
+%be regarded as detracting from its conversion efficiency. Even so, generators usually lose only a few percent
+%in the conversion, so many sources do not bother to distinguish between the power of the prime mover and the
+%power emerging from the generator, but yes, the two devices may not be closely matched. Thus, a large generator
+%might be driven by an underpowered prime mover; if so the lesser capacity is the limit. As a further source
+%of confusion, the generator's output voltage will be stepped up by transformers, and their rating may be
+%a limiting factor, or may incorrectly be quoted as the generator's rating. This should be taken as the result
+%"at the generator terminals" and thus before any such losses. And finally, the transmission line taking power
+%away might be the limiting factor on the power received by the outside world...
+%   Pelton wheels usually manage to capture about 80%, while Francis turbines should better 90% efficiency
+%with draught tubes, though I don't know of any attempts to capture the twirl energy of the emerging water.
+%Kaplan turbines are more like propellors, and are used for the lowest head. They are expensive to design and
+%manufacture (they have moveable blades) but can better 90% efficiency.  A Turgo turbine is midway between
+%a Pelton and a Francis turbine, and I don't know their likely efficiencies.
+%   For wind turbines there is argument as to what portion of the flow is a participant since air passing just
+%outside the blade tip's arc is also involved in the process so the swept area is not a proper absolute. Say 60%.
+%   For heat engines, the energy capture depends on the temperature difference between the inlet and outlet,
+%with only about a third of the heat energy being diverted. Low-temperature sources, such as geothermal steam
+%enable only painfully low efficiencies, so that the exhaust heat should have some auxiliary use.
+%Higher thermal efficiencies are possible, but only at the cost of much greater complexity in expensive equipment.
+%And fuel is cheap. A second-stage turbine run off lower-temperature working fluid and its generator costs about
+%as much as a second high-temperature turbine (and the same generator) which at the price of twice as much fuel,
+%delivers more power. That is, the second-stage system typically generates less power than the first stage system.
+%In still other words, two lots of turbine&generator with one lot of fuel delivers somewhat less power than
+%two lots of turbine&generator with two lots of fuel.
+%   Geothermal power stations usually have complex pumping requirements consuming a lot of power; it is often
+%unclear whether a stated capacity is a gross generation (the capacity of the actual generator at its terminals),
+%or the nett capacity (remaining after the internal usage has been taken) that is sent to the outside world.
+%   Whatever the capacity of a generator, power from it may be used mostly or entirely within the organisation
+%generating it, and what emerges from the shed may go to a local grid with some slopover to the national grid.
+%Any answer to the question "what is the total generation capacity?" becomes verbose.
+%
+%   Whatever the nominal rating of the generator, they can be overrun, say by 10% though with various consequences.
+%They can also be underpowered. Deviation from the design power reduces efficiency. And as time wears on, so do
+%their parts and this wear is unlikely to increase output or efficiency. Equipment can be refurbished, or replaced.
+%Details here are also lacking. For wind farms, it appears that the nominal collective rating is unlikely to be
+%attained, presumably because when the laggard turbines start running at full power, the leaders start dodging
+%overload. Initial appreciations suggest that the actual maximum delivery from a wind farm is about ten percent
+%below the summation of the nominal capacities of the constituent turbines. Contrariwise, it appears common to run
+%a wind turbine at as much as double capacity for a few minutes, as during a wind gust. Whether the turbines
+%of a wind farm are controlled collectively to stabilise their nett output is another unanswered question.
+%There is also the possibility that after initial construction, there will always be one or two turbines u/s.
+%
+%   An established power station may be fully functional, but, it may be too expensive to run compared to others,
+%and its energy source may be lacking. No power station can be run at full power full time all year.
+%Geothermal power stations come close (though there is likely to be a falloff in warm weather) but even
+%so there will be shutdowns for maintenance during a year. The key is that the fuel is "free". A hydro power
+%station could (as there is little wear) and its fuel is also free, but it is usual to install more generation
+%than could be supplied by the average inflow because the added cost of one more generator is relatively small
+%and the electric power demand does vary. Their generation varies according to the level of the reservoir
+%(if there is one) - that is, the available head, which may depend on the tailrace also as at Manapouri.
+%   For coal-fired power stations there may be a shortage of coal, for oil-fired stations the price of oil
+%may cause pain, for wind turbines the wind may not blow, etc.
+%
+%   Although this scheme could encompass information as to scheduled outages for maintenance and the return to
+%service (as not to the announced schedule for Huntly, one year...), and as well, surprise outages due to
+%malfunction, or major droughts, etc. information as to actual dates is not to hand, so the nominal capacity
+%might be present, but, it may not be available for actual use.
+%
+%   Notable power cuts include:
+%       NI: 20% March-August 1946, 20% March-May 1947, ~15% March-May 1948.
+%       SI  30%  June-August 1947, 20% July-October 1953.
+%   The Auckland Electric Power Board threatened a fine of two hundred pounds (about a year's income) or a year
+%in prison for anyone caught taking a hot bath outside of the times permitted by the Board, and achieved a 22%
+%reduction in the peak: there was no report of any incarcerations of the overwashed.
+%   Droughts in 1973 and 1973 led to rationing. "Save power, shower with a friend".
+
+%   Electricity tariffs started simply, based on the number and type of electrical equipment connected, thus the
+%initial Reefton deal of three pounds per year per lightbulb. There was propaganda to encourage conversion to
+%other uses of electricity to build demand (average rise of 22% per annum, over 1926 to 1931!) and then scrabbling
+%to build generation capacity for the next round. Electricity meters started being used, and also load control,
+%once it was realised that hot water cylinders could be heated overnight rather than at the whim of its thermostat
+%with everyone coming home in the evening at about the same time. This was especially encouraged by the wholesale
+%tariff to the supply authorities whereby the charge was based entirely on the peak consumption rates, not at all
+%on the total energy delivered during the year.
+%
+%   As well as the vagueness over capacities, there is also vagueness over dates (even more so with times)
+%so the scheme is to allow a year, a month/year, or a day/month/year to be given. Middle times will be taken.
+
+Step Time,+-Differrence
+Nominal.Hydro.Bullendale                       Head 185' First industrial supply in N.Z. that left the building. For the quartz stamping battery via the first (low voltage) DC link.
+     2/1886      50 Two 50HP Pelton wheels drove two DC generators.
+       1907       . Mined out.
+
+Nominal.Hydro.Reefton                          Head 27' Reefton: first public supply in N.Z.
+   1/8/1888@7pm  20 First demonstration of the first power station in N.Z. for the purposes of public supply. 30 and 110V DC Crompton dynamo.
+       1901      46 New 220V Fynn dynamo, part-driven by an added steam engine salvaged from a wreck at Greymouth.
+       1908      80 A 110HP Boving horizontal turbine replaced the 70HP Rafel turbine.
+       1911       0 Power house destroyed by fire!
+       1911     100 230V DC Lawrence Scott dynamo.
+       1949     .   Reefton was connected to the national grid.
+Nominal.Thermal.Reefton                        Steam power to support the Reefton hydro power scheme.
+       1901      16 Guessed capacity of the auxiliary steam engine. A second boiler in 1920 (?) Inspection had shown 208V at the power house, 134V at the far end of distribution.
+       1920      75 GEC dynamo. a 25HP Davey Paxman horizontal engine, a 20HP Marshall horizontal engine.
+       1949       . In 1930 a standby diesel engine. Details lacking!
+
+Nominal.Hydro.Wellington.PanamaStreet          Head ~100'? Water main supply, discharge to the harbour..
+     6/1889      30 Water mains supplied (at no charge) two 30HP "vortex" turbines driving a 15KW Gulcher single phase AC generator at 100V and 80cps. What happened to the extra HP?
+       1891    +110 Three 50HP turbines driving five generators were installed on the closure of the Manners Street station
+
+Nominal.Hydro.Wellington.MannersStreet         Head ~100'? Water main supply, discharge to the Te Aro stream..
+     6/1889      30 Water mains supplied two 30HP "vortex" turbines driving a 15KW Gulcher single phase AC generator at 100V and 80cps.
+       1891       . The company entered into liquidation and reappeared as NZ Electrical Syndicate, starting a new station at Harris Street..
+
+Nominal.Hydro.Mataura                          Head 20' Southland Frozen Meat company.
+       1890     200 A 500HP turbine for the ammonia refrigeration plant, plus... electric generation.
+       1893    +100 A 310HP turbine by the Mataura Paper Mill on the other side of the river... Guessed apportioning.
+%In 1932 the company's system was disconnected from public supply as a different voltage/frequency standard had been settled upon.
+%In 2000 the story is 800KW run by "Alliance Group", and the paper mill has 800KW, plus 1875KW steam turbine, disused. Dates would be good.
+
+Nominal.Hydro.Mokopeka                         Supplied John Chamber's farm (homestead, workshop and shearing shed) plus a neighbour, so that'll do as "public supply".
+  21/9/1892       8 14HP Vector turbine, second-hand (St. Pancras station)  8KW 110V DC dynamo.
+       1926      17 Imported a new turbine and generator. The original dynamo was converted into a motor for a water pump.
+
+Nominal.Thermal.Wellington.HarrisStreet        Mostly covered by the city library.
+       1893     325 Four steam engines for 75KW generators, plus another steam engine for 25KW. Single phase AC at 80cps and 2,000V stepped down to 105 for customers.
+       1906    1725
+       1907    +200 Confusion. Council takeover (compulsory), the four steam piston engines replaced by a 500KW Curtis vertical steam turbine.
+       1909    1500 New plant. Parsons turbo-alternator.
+       1914   +1500 A second Parsons turbo-alternator.
+       1919    +500 The Curtis turbine was revived for assistance with the winter peak.
+       1924       .
+
+%      1896         Pelton wheel, 110V dynamo for the Roxburgh Amalgamated Mining and Sluicing Company, Roxburgh East. Two 3,000 candlepower arc lights.
+Nominal.Hydro.Stratford                        Head 12', tunnel across the neck of a hairpin bend.
+       1898      90 Single phase AC at 2200V, town supply was 105V.
+       1927       . Connection to the national grid, with conversion to the national voltage.
+
+Nominal.Hydro.OkereFalls                       Head 14' Rotorua tourism lighting, and sewage pumps.
+     5/1901     100 Two Waverly horizontal turbines, AC single phase.
+       1908     200 Confusion over 1907 increase to 97KW, 105 in 1908. Added another 100KW generator in 1908.
+     9/1939       . Disuse in 1936, dismantled in 1941. Had been used for the evening peak since Arapuni started in 1929, but ran full time during the Arapuni closedown 1930-1932.
+
+%      1901-2       Teviot station (domestic power), sold to an orchardist in 1916.
+
+Nominal.Hydro.Earnscleugh                      Earnscleugh No. 3 Dredging and Electric Power Company
+       1901     140 Unclear source of water pressure, as the pipeline scheme was constructed in 1951.
+       1925       . The dredge was dismantled and carried over the Carrick range (!) to the upper Nevis river.
+
+Nominal.Thermal.Auckland.Hobson                Hobson Street power station for the Tramways (mercury rectifier for DC), plus a requirement for Queen Street lighting.
+ 17/11/1902    2000 Two chimneys, so I'll guess this. It's nice to have a specific date, but a specific power as well would be even better.
+       1920       . Generation ceased in favour of King's Wharf. The Tepid Baths seem to have continued receiving warmed water until the power station closed in 1924.
+%Except that in 1920 disputes in the coal industry curtailed coal supplies, and the trams didn't run: 31'st January - 13'th February, 25'th September - 11'th October, this second stopping coal gas production also, 30'th September - 14'th October.
+
+Nominal.Hydro.Normanby                         Head 60' Dam plus tunnel across the neck of a second-order meander of the Waingongoro river.
+       1903     590 Three turbines.
+       1967       . Abandoned after a flood. In 2008, thoughts of revival by Normanby Power Generators Ltd., but objection by "dam droppers".
+
+Nominal.Thermal.Christchurch.Armargh           Armargh Street Rubbish Destructor, then added coal.
+       1903     200 Two steam engines each driving a 100KW generator.
+       1905    +150 Added a boilerhouse with coal firing. In 1907 construction began on the Municipal Tepid Baths, to be warmed by waste heat.
+       1910    +400 Another coal-fired boiler to supply two 200KW generators.
+
+Nominal.Thermal.Wellington.JervoisQuay         Tramways' supply, then street lighting.
+       1904    1050 Four steam-driven DC generators for the trams
+       1905    +220 two AC generators for lighting.
+       1910    3000 Three more steam-powered generators.
+       1921   +1000 Eases the problems with tram overload.
+       1924       . Mangahao power arrives in Wellington.
+
+Nominal.Thermal.Christchurch.FalsgraveStreet   Tramways' Supply.
+       1905    1000 Two steam turbines, the first such usage in N.Z.
+       1907    +500
+       1910   +1000
+       1960       . I'll guess a date.
+
+Nominal.Thermal.Waihi                          Grand Junction mine, Waihi. Additional generation via a Pelton wheel, steam engines, and coal-gas.
+       1905    1300 Three 580HP steam turbines directly connected to Brown Boveri three-phase AC generators, mostly for pumping and winding.
+
+Nominal.Hydro.Mangamahoe                       Head 210'? The Mangorei river is downstream and has no connection.
+  19/1/1906     200  Guessed capacity of the original station.
+       1931    4600  Large earth dam, diversions, etc. 3×1·3MW plus ·7MW
+
+Nominal.Hydro.TeAroha                          Head 500', though the map rather suggests ~900'.
+     4/1906      75 Pelton wheel.
+       1976       . Demolished. There had been multiple upgrades, until relegation once Arapuni power became available in 1923.
+
+Nominal.Hydro.Waipori                          Dunedin City Council won the squabble. Construction began in 1903.
+ 27/04/1907    2000 Pelton wheels. Head 665'
+       1910   +2000
+       1913   +2000 Reticulation now included the Taiere plains.
+       1931   +2000 New dam at Mahinerangi submerges previous dam. It becomes power station 1 but is only 67' high of the intended 110'. The first power station is renamed number 2.
+       1946   +1000 The Mahinerangi dam was raised to 110', so I'll guess that this marked the full 3MW capacity.
+       1953   +8000 Station 3, head 166'
+       1954   +8000 Station 4, head 186'
+       1967   -4000 Station 2 (that was the original station) ceases(?)
+       1968  +18000 Rebuilt as station 2A.
+       1975  +18000 Station 2A gains another.
+       1976  +18000 Station 2A gains again.
+       1982   -3000 Station 1 (that was the second station) at the base of the Mahinerangi dam ceases (?)
+       1983  +10000 Becomes station 1A.
+
+Nominal.Thermal.Ashburton                      Steam tractor engine, Craddock & Company.
+       1908      30 220volts DC.
+       1924       . Substation built for connection to the national grid, so I'll say this quit. It may already have been superceded by other local generators, but no word on them so far seen.
+
+Nominal.Thermal.Auckland.FreemansBay           Rubbish power ("Destructor"), soon supplemented by coal.
+       1908     450 Two Browett Lindley steam engines driving Westinghouse generators. The waste destructor was built in 1905 on fears of bubonic plague.
+       1913       . Power generation abandoned in favour of the new generation at King's Wharf. Rubbish desctruction continued.
+
+Nominal.Hydro.Kaniere.KaniereForks             Head ~250' Conversion of goldminer's works.
+   8/9/1909     700 Two 350KW three phase 60cps AC generators at 60cps driven by two 500HP Pelton wheels at 300rpm.
+    10/1931     520 Conversion to 50cps, thus allowing synchronisation with power from McKay's Creek.
+       1973       0 Collapse of the Johnson's flume.
+       1974     520 Better dates would be better.
+     6/1979       0 Fire! The generators had to be rewound. A rat chewing at cables was suspected.
+     1/1980     520 Guess dates. (Six months outage)
+     6/1981       0 Fire again!! This time the machines had overheated.
+     1/1982     520 Guessed recovery.
+
+Nominal.Hydro.Mangaweka                        Head 30' Part of the water & sewage system.
+       1911      25
+       1937       .
+
+Nominal.Hydro.Akaroa                           Head 295'
+  11/9/1911      37 50HP Pelton wheel.
+       1955       .
+
+%1912, Napier, diesel, but no indication of capacity. In "Faraday Centre", now a museum.
+
+Nominal.Thermal.Auckland.KingsWharf            Public supply, surplus to the tramways.
+       1913    3300 Four Belliss & Morcom steam engines.
+       1920   10410 Four additional units were ordered by 1915, but political distractions delayed completion to 1920.
+       1922   +1000 Additional three units in 1922-1923.
+       1923   +2000 So I'll take them as being 1MW each.
+       1925   +1000 Another unit. Power from Horohoro reaches Auckland.
+       1928   22500 Apparently 18MW AC and 4·5MW DC.
+     3/1930       0 Superceded by supply from Horahora and new supply from Arapuni. Reverts to "standby".
+     6/1930   26000 Cracks at Arapuni! Revival, to operate at overload.
+     2/1931  +15000 New turbine. Presumably additional, not replacement.
+       1942   27000 DC generators disposed of on government purchase.
+    11/1952       0 Maraetai available, closedown for a full refit.
+       1955   27000 Usage faltered after 1960.
+       1968       .
+
+Nominal.Hydro.Waikato.Horahora                 Head 27' Waihi Mining. First transmission line.
+    10/1913   63000 Six horizontal Francis turbine. Or maybe, commissioned in early February 1914, with power reaching Waihi mines on the 8;th of April.
+       1926  +21000 Two additional generators. Now under government control, first transmission to Auckland.
+   6/4/1947       . Drowned, still turning, by Lake Karapiro.
+
+Nominal.Hydro.Hautapu                          Head 500' small wier then a tunnel.
+       1913    1000
+       1965       . Some time in the sixties.
+
+Nominal.Hydro.Coleridge                        Head 490' To Christchurch.
+ 25/11/1914    4500 Three horizontal Francis turbines. Plans for six.
+       1917   +1500 A fourth added.
+     3/1922   +1500 A fifth. Ordered during WW1, but there was no steel available for the penstock.
+     1/1923   +1500 But consumption growth and overload again in a year.
+       1926  +15000 Two 7500KW turbines in an extended power house, fed by a new tunnel and set of penstocks.
+       1930   +7500 Another turbine. Adds up to 31500KW but the 1981 Annual Statistics shows 34500KW.
+     5/1977       0 Construction of the Wilberforce diversion was an opportunity to reline the tunnels and refurbish the generators, etc.
+    11/1977   34500 Resumption, at the same power level?
+       2000   39000 Upgrades of the larger turbines, retirement of the lesser turbines, at some date and with some result.
+
+Nominal.Hydro.OmanawaFalls                     Head 100' Underground power house.
+  2/10/1915     180 Two 120 HP turbines.
+    11/1921     650 Addition of a turbine from a mining battery at Karangahake to drive a 650KW turbine. Head increased to 110', power house enlarged.
+%      1974     160 Power reduced "to allow some water to supply bigger generating plants that were built" (http://econtent.tauranga.govt.nz/data/documents/plans/reserve_management/omanawa/omanawa_falls.pdf), a puzzle, as the generator didn't consume water.
+%Possibly, this refers to water being diverted to the Kaimai scheme, and thus reducing the flow over the Omanawa falls.
+     4/1985       0 Cotton insulation on the winding failed! I'll guess the months.
+     6/1985     650 And guess a month to repair.
+ 29/ 7/1998       0 Decommissioned. Reduced capacity since the 1974 Omanawa weir that diverted flow to lake Mangaonui and the new stations.
+    11/2008     200 Revived! The generator was unsalvageable, but the Escher Wyss turbine was good. Lesser power level to keep the falls fullish.
+
+Nominal.Hydro.Kaponga                          Head ~20`? Long before the natural gas well at Kapuni.
+  29/5/1916      45 Town supply of 230V DC.
+       1925    +120 Second powerhouse, three phase AC at 50 cps.
+     7/1944       . Takeover by the Taranaki Electric Power Board.
+
+Nominal.Hydro.Thames                           Head ~50' at a guess.
+       1916     100 Dusk to midnight, and two hours on Tuesday afternoons.
+       1946       . Abandoned. And who knows what happened to the U-boat diesel engine.
+
+Nominal.Hydro.WairuaFalls                      Head ~100' Northland.
+       1916    2000 Commissioned by the Dominion Portland Cement Company.
+       1995    5000
+%     6/2007        Fourth generator.    Three 1·2MW Francis turbines.    Vagueness.
+
+Nominal.Hydro.Raetihi                          Head ~260' Hidden in a ravine.
+       1920     500 Possibly still earlier than the 1920's.
+
+Nominal.Hydro.SixMileCreek                     Head ~40' Conversion of a goldminer's water race.
+     1/1922      80
+       1975       .
+
+Nominal.Hydro.Karaponga                        Head ~30 feet. Guesswork: the dam is 18'5"
+ 29/11/1922     240 Pelton wheel.
+       1929     500 Sheer guesswork. "An additional generator", the dam raised by 15".
+       1936     250 More guessing. The first generator was in poor condition, and bulk power was available from th Bay of Plenty Power Board.
+    11/1939       . Less trouble to take supply from the national grid.
+       1996     500 Revived, using the dam but new pipeline and generator.
+     9/2010       0 Penstocks imploded!
+
+Nominal.Hydro.Kourarau                         Two power stations and pipes not shown on the topographic maps.
+ 20/12/1923     700 Twin disc Boving Pelton wheel. 430' head. 235 customers.
+    12/1924       0 Power house drowned by a flood!
+     1/1925     700 Said to be revived in a month. In 1926 the power station was raised about six feet to avoid repetition. Presumably not while it was running.
+       1925    +250 Upstream, an added power station. 289' head.
+     4/2005    -700 Station A again flooded.
+    10/2005    +700 Wiararapa Times-Age 31'st August reports all has been repaired, but the decision to reactivate may take a few months more. Concrete blocks added to defend the power house.
+     8/2006       0 Cracks in the upper station's penstock, water coming down the hillside...
+    10/2006     950 I'll guess two months.
+
+Nominal.Hydro.Opunake                          Head ~60'
+  11/9/1923     300 Guessed capacity.
+  23/4/1996     365 Seeing as this is a reported capacity for a new turbine for the same scheme.
+
+Nominal.Thermal.Nelson                         Wakefield Quay.
+    10/1923     750 Supply at 3,300V.
+       1964       . Supply from Cobb (11KV) in 1944 reduced usage. Quit in 1964.
+
+Nominal.Hydro.Waikaremoana.Tuai                Head 675' From a small lake at the outlet from Kaitawa.
+       1923     700 Two Pelton wheels at Tuai, the project initiated by the Wairoa Power Board.
+       1924   +1000 Guessed date of the addition of a 1MW pelton wheel, from Waipori.
+%Or is this the two 500KW Pelton wheels, each driving a DC and a 400V AC generator as salvaged by Bryan Leyland for his Onekaka project?
+     2/1929  +16000 Horizontal Francis turbine. State Hydro commissions the first generator in a hurry, as Mangahao is now overloaded.
+     6/1929  +16000 Second turbine.
+       1930   -1700 I'll guess that the initial equipment is no longer for the grid, only in-station use.
+       1939  +20000 Added a third penstock and turbine.
+Nominal.Hydro.Waikaremoana.Piripaua            Head 370' From a small lake at the outlet from Tuai.
+       1943   20000 First turbine at Piripaua.
+       1944  +20000 Second turbine at Piripaua.
+       2010   +5000 Guessed date for "recently": upgrade of Piripaua from 20MW to 22·5MW turbines.
+Nominal.Hydro.Waikaremoana.Kaitawa             Head 433' Lake Waikaremoana provides substantial storage compared to the water flow.
+     4/1948   16000 First turbine at Kaitawa.
+    10/1948  +16000 Second turbine at Kaitawa.
+       1989   +8000 Kaitawa turbines refurbished: uprated from 16 to 20MW. Vibration problems resist suppression.
+
+Nominal.Thermal.EvansBay                       Warm water was appreciated by swimmers, and fishers.
+       1924    5000 Metropolitan Vickers turbo-alternator, fed steam by two Babcock & Wilcox marine style boilers.
+       1925   +1000 The DC turbine from Jervois Quay.
+       1925   +3000 The two turbo-alternators from Harris Street (closed in 1925). Conversion to 50cps 230V 1925-1932.
+       1936  +15000 A turbo-alternator fed from two rapid-start oil-fired Velox bouilers. Full pressure in five minutes.
+       1943  -15000 Mostly out of commission, so this'll do as a guess.
+       1944  +15000 Guessed resumption.
+       1968       . Closedown. Used occasionally for peaks from 1959, standby after Maraetai was commissioned in 1952 though resurgence in 1955.
+
+Nominal.Hydro.Teviot.George                    Head 385' Multiple power stations along the Teviot river, starting with George.
+  27/3/1924     250 Francis turbines. Two 125KW generators from the Ladysmith Mining Company. Generation and distribution at 3,300V. Installed 21'st, official opening 27'th.
+ 25/11/1926    +500 Francis turbine added.
+     1/1966    -250 The original two 125KW machines removed. Guessed month.
+     2/1966    +500 Replaced by a single Gilkes Impulse Turgo turbine. Guessed month.
+       2002    1000 Two 500KW generators replaced by one 1MW. Jyoti/Turgo turbine.
+
+Nominal.Hydro.Piriaka                          Head 27'
+       1924    1600
+       1971    +600 Second power house.
+
+Nominal.Hydro.OneMileCreek                     Head 580' Dam on One Mile Creek above lake Wakatipu near Queenstown.
+  18/9/1924      60 Boving Pelton wheel, later supplemented by a diesel, somewhere.
+    12/1966       . Bought by the Central Otago Electric Power Board in 1944, closed in 1966 with the water being taken for town supply..
+
+Nominal.Thermal.PalmerstonNorth                The Palmerston North City Council for the Municipal Electricity Department.
+ 12/11/1924    1000 Three 450HP coal gas engines. Official opening. Trial runs started in February.
+       1936   +2500 Two 1400HP diesel engines.
+       1954   -1000 The gas engines were scrapped.
+       1999       . Disconnection, though the station is still functional and is operated as a display.
+
+Nominal.Hydro.Monowai                          Head 154'
+   1/5/1925    4000 Two Francis twin turbines.
+       1927   +2000 A third. This was the start of the downfall of the Southland Power Board: bulk supply only to Invercargill and Bluff.
+       2005    +600 Refurbishment of turbines, from 2000KW to 2600KW. There should be an off/on step, but no specific dates are to hand.
+       2006    +600 Second turbine refurbished.
+       2007    7800 Refurbishment to three 2·6MW turbines, one each installed in 2005, 2006, and 2007. The second generator, and the third set went to Clearwater Hydro (Tauranga), another (or one of?) was sent to a station near Waitomo. (where?)
+
+Nominal.Hydro.McLarenFalls                     Head 85'
+  25/6/1925    1400
+     9/1925   +1400 Second generator.
+       1989       . Decomissioned. Superceded by the 1983 repaired canal to Ruahihi.
+
+Nominal.Hydro.Wairere                          Head 65' King Country, not by Whakatane.
+       1925    1000 One turbine.
+       1938   +3000 Three more. Assorted sizes and dates 1938, 1952, 1981.
+
+Nominal.Hydro.Mangahao                         Head 896'
+  3/11/1924   19200 Pelton wheels. 3×4800KW + 2×2400KW.
+     4/1994       0 Refurbishment: two penstocks combined into one.
+     6/1994   38000 The three Pelton wheels replaced by one Francis turbine of 26MW, and the two pelton wheels had their generators rewound, to give 6MW each.
+       2004   +4000 A "mini hydro" addition.
+
+Nominal.Hydro.Motukawa                         Head 325'
+   9/1/1927    3000 Guessed starting capacity with two turbines.
+       1938    4500 Third turbine added.
+%In 1970 the 4' diameter penstock was replaced by 5'3" to increase capacity. By how much?
+     2/2006    +200 A fair way upstream, a turbine was added in the water race to lake Ratipiko; this might as well be counted as a part of Motukawa.
+
+Nominal.Hydro.Kumara                           Head 255'
+       1928    6500
+
+Nominal.Hydro.Dillmans                         Head 150'
+       1928    3500
+
+Nominal.Hydro.Duffers                          Head 40'
+       1928     500
+
+Nominal.Hydro.Nevis                            The gold dredge's hydro power came from a power house on the nearby hillside.
+       1928     140 Ex-Earnscleugh dredge reactivated, though with problems in the frozen depths of winter.
+       1934       . Converted to diesel.
+
+Nominal.Hydro.Waihopai                         Head ~60' No storage: just a pond.
+   6/4/1927    1000 Two turbines.
+       1939     100 Summer drought and winter freeze.
+       1940    1000 Nominal resumption, though every winter the freezing ground means scant river runoff.
+       1996    2400 One turbine replaced by a 2000KW turbine; nominal total now 2400KW.
+
+Nominal.Hydro.Waikato.Arapuni                  Head 175'
+   4/6/1929   15000 Early start before the power house was finished, Auckland being needy.
+     9/1929  +15000 But one of these vibrated badly and had to be run at lower load.
+    12/1929  +15000 On the offer of supplying Auckland's full load, the King's Wharf station was closed. But...
+   7/6/1930       0 Cracks! Emergency! Criticism! Censorship! Denials! Desperate recourse to all other available generation!
+   4/3/1932   45000 The bypass channel (above the powerhouse) lined to prevent water entry that weakened the rock, etc.
+     5/1932  +15000 Fourth and final turbine of the initial plan.
+     2/1938  +43200 Extensions to the power house approved in 1933 for two more turbines, of 21600KW each.
+     6/1943  -15000 One of the turbines broke down. A dry year in the South Island as well.
+     8/1943  +15000 I'll guess it took two months.
+       1945  +21600 Ordered in 1939, but delayed by political distractions.
+       1946  +21600 A fourth larger turbine of the second set.
+     4/1947  -60000 The first four turbines were refurbished, though exactly when is unclear.
+       1947  +71400 And uprated from 15000KW to 17850KW.
+%Refurbishment of the first four turbines in 1989-1990 but no idea of capacity change.
+%Downrating of the second four in 1990, replacement in 2002.
+
+Nominal.Hydro.WyeCreek                         Head ~1380'
+       1929     400
+    10/1991   +1000  Refit. From the lower Roaring Meg station.
+ 16/12/2008@8:20am 0 Turbine failure (seized generator?) - the water blast wrecked the station.
+       2010    1000  Guessed date. Apparently, the failed turbine has been repaired, and the original unfailed turbine abandoned.
+
+Nominal.Hydro.Pupu                             Head 300' Conversion of a goldminer's water race.
+    10/1929     700
+       1981       . A "flashover" ruined the generator.
+       1987     250 Revived by the Pupu Hydro Society. Possibly 1988. It would be nice to have a specific date.
+
+Nominal.Hydro.Onekaka                          Head 690' Originally a part of the Onakaka ironworks, then revived by Brian Leyland, et al.
+       1930     350 Boving Pelton wheel. In 1929 a pipe foundry was begun at the Onakaka 1920's iron works, though its pipe was not used for the penstocks. Presumably, most if not all was used internally, until mining ceased in 1935.
+       1954       . The Golden Bay EPB took over in 1937, then removed the equipment in 1954, which went to the Solomon Islands.
+  1/11/2003     400 Starts with the month? First pelton wheel; output limited by the 11KV connection, enhanced by nearby load during milking time.
+  24/4/2004     940 Upgrade to 33KV connection to Motupipi, full power can now be pushed forth.
+
+Nominal.Hydro.Kerikeri                         Head ~100'
+ 11/ 6/1930     200
+       1967       .
+
+Nominal.Thermal.Springlands                    Supplements Waihopai when the ground is frozen and little water flows.
+     7/1930     428 Six-cylinder diesel, 630HP.
+       1937    +900 Harland&Wolff diesel, 1300HP.
+  23/6/1992       . Last recorded generation on the 22'nd. Disconnected 30/7/2003 due to suspect switchgear, but remains capable and runs as an exhibit.
+
+Nominal.Hydro.Kaniere.McKaysCreek              Head ~180' Conversion of a gold-mining project.
+       1931    1100
+
+Nominal.Hydro.Arnold                           Head 36', later 42' Main storage is in Lake Brunner.
+     9/1932    2500 Two variable-pitch Kaplan turbines.
+     2/1938    3000 Purchased by the government, the spillway altered to raise the head from 36' to 42' so I'll put the previous rating as pro-rata.
+
+Nominal.Hydro.Motueka                          Head 1600' Brooklyn Hydro power.
+       1934     240 Guessed capacity.
+       1958       . Guessed abandonment, on the connection to the national grid.
+       2000     240 Guessed date of the revival.
+
+Nominal.Hydro.DawsonFalls                      Head 220' Dawson Falls Lodge. Mains electricity arrived in 1982.
+  30/6/1934      75 Pelton wheel. The 220V DC generator was built in 1896 and has travelled about.
+  21/2/1935       0 Flood!
+   5/7/1935      75 New power house, well above the river.
+
+Nominal.Hydro.Waitaki.Waitaki                  Head 70'
+ 27/10/1934   30000 Two Francis turbines. Official opening at 66KV, 110KV available with 1935.
+       1940  +15000
+       1941  +15000 Fourth turbine.
+     5/1943   30000 Water shortages in winter.
+    10/1943   60000 Just for fun, following the reported variation.
+       1949  +15000 Fifth. Alas, there being almost no storage capacity, full power was available for a few hours at a go.
+       1954  +30000 Extension of the power house. Control works at lakes Pukaki and Tekapo (well upstream) enabled steadier operation. (Spring melt).
+       1998  -15000 Generator 3 "mothballed". Exactly when is unclear and the declaration is made in 2011. Apparently some significant repairs are required, and the operator prefers to dodge the expense and the peak power levy.
+%Feb 2013, a statement that refurbishment will include revival. But no suggestion of when.
+
+Nominal.Hydro.RoaringMeg.Lower                 Head 1000'
+  19/3/1936    1700 Two Pelton wheels drive two 850KW 6600V generators.
+       1989    3000 One generator (now deemed 1MW) replaced by a 2MW generator.
+    11/1999       0 Flood! The control equipment was ruined.
+     7/2000    3000 But the turbines and generators could be repaired.
+
+Nominal.Hydro.Tatare                           Head ~50'? Takeover of a gold-sluicing water race.
+     6/1938     150 Escher Wyss 220HP turbine, English Electric generator 315v
+       1982       . A slip damaged the power house, and as grid supply was available...
+
+Nominal.Thermal.Waipa                          Timber mill: wood waste.
+       1939    2000 Guessed capacity of the two fifty-five year old steam turbines that were replaced in 1986.
+     3/1986    3500 Guessed "early 1986". Replacement steam boiler of ~20MW. A second 20MW boiler in 1992, but no idea of generation.
+
+Nominal.Hydro.Cobb                             Head 1876' then 1950' after the earth dam of 107' replaced the weir and its ad-hoc extensions. Highest head in N.Z. with the water jet emerging at about a third of the speed of sound.
+%There has been excitement over sink holes in the earth dam, and water jets smashing the power house, but no details.
+     6/1944   12000 Four pelton wheels.
+       1956  +20000 Two more pelton wheels in an expanded powerhouse. An earth dam forming lake Cobb replaced the weir (with optional added sandbags).
+
+Nominal.Hydro.Highbank                         Head 330' Tail end of the Rangitata irrigation scheme.
+   8/6/1945   25200
+
+Nominal.Hydro.Waikato.Karapiro                 Head 100'
+     5/1947   30000 First Kaplan turbine.
+     9/1947  +30000
+     5/1948  +30000
+
+Nominal.Hydro.RoaringMeg.Upper                 Head 450' Outfall to the intake for the lower Roaring Meg pipeline.
+     7/1947     250 Pelton.
+       1963       0 The generator failed.
+       1964     540 Guess date for the replacement, from the Fraser power scheme.
+       1991    +750 A new pipeline to supply a second set, using a Turgo turbine.
+
+Nominal.Hydro.Fraser                           Head 800'
+       1949     500 Temporary power station, but what supplied its energy?
+     2/1954    3000 Gilkes Turgo turbine. Though with a committment to supply half in summer time for irrigation pumps. The upstream Fraser dam's lake had been filled in September 1937.
+
+Nominal.Hydro.Waitaki.Tekapo                   Head 100'
+     6/1951   21400 Single Kaplan turbine. Low head of 100', and a working range of 25' with the lake raised 15'.
+    12/1953   25200 Raising of the lake by 15' completed. This is nominally full power at 100' head, the previous is a guess at 85/100.
+%Turbine failure in 1986, new Kaplan turbine of 31MW (42,000HP)? The turbine, but not the generator?
+%A monument showing the turbine blade has a plaque "Commissioned 1951, replaced 1985" http://www.flickr.com/photos/albertfreeman/7875307810/
+  9/ 1/2013       0 Closedown as the canal to Pukaki is being repaired.
+     4/2013  252000 Estimated resumption of flow. Another outage is planned for next year.
+
+Nominal.Hydro.Hinemaiaia                       Multiple stations, small storage, swiftly silted.
+       1952     800 Station A. Head ~130'  Supply to Taupo.
+       1966   +1300 Station B. Head ~100'
+       1982   +1200 Second pipeline and turbine added to station A.
+       1982   +2800 Station C. Head ~100'
+
+Nominal.Hydro.Clutha.Roxburgh                  Head 150' Small storage in a long narrow lake.
+  23/7/1956   80000 First two turbines. Official opening on the 3'rd of November.
+    12/1956  +80000 Last two of the first stage. Another four ordered. A dam completed in 1958 raised Lake Hawea by 60'.
+     4/1961  +40000 Guessed time of the first of the second batch.
+     8/1961  +40000
+    12/1961  +40000
+     4/1962  +40000
+     6/1962  +40000
+
+Nominal.Hydro.Waikato.Maraetai                 Head 200'
+ 31/10/1952   30000 Hurried generation commencement from three 36MW turbines, at half the design head with flow through the diversion tunnel continuing.
+     4/1953   52500 Head raised to 175'
+   5/9/1953  108000 Official opening, presumably with the design head of 200'.
+     1/1954  +36000 Fourth turbine.
+     4/1954  +36000 Last turbine of Maraetai's first stage.
+  10/6/1970  +72000 First two turbines of the second stage, after stop/start and reallocation of resources and dissension.
+     9/1970  +36000 Third.
+    11/1970  +36000 Forth.
+     2/1971  +36000 Fifth. All ten of both phases are rarely used together.
+
+Nominal.Hydro.Waikato.Whakamaru                Head 124'
+     5/1956   50000 Two turbines, haste for the coming winter.
+     8/1956  +50000 Final two, later in the year, so I'll guess.
+
+Nominal.Hydro.Fox                              Head ~750' Drains lake Gault.
+       1958     700
+
+Nominal.Thermal.Meremere                       Coal-fired, steam turbines at 865F, 640psi. Cooling from the Waikato. Standard design enabled swift construction.
+  13/8/1958   30000 First turbo-alternator, easing the usual winter power crisis.
+    10/1958  +30000 Second. The other four turbines were ready, but the boilers were not.
+    12/1958 +120000 I'll guess the rest were ready.
+       1967  +30000 A seventh set added.
+     3/1991       . Decommissioned.
+
+Nominal.Geothermal.Wairakei                    Geothermal steam supply has faltered, technique has improved, equipment shuffled about, auxiliary expansion.
+ 13/11/1958    6500 First unit commissioned, so I'll guess one only. But intermittent operation due to testing and mishaps.
+     8/1959   20000 Mentioned in passing in a December 1960 paper by F.E. Studt and D. Doyle, Electric Power generation from geothermal steam at Wairakei, New Zealand.
+     5/1960   50000 All stage 1 units were active, but not fully powered.
+       1961   69000 Steady operation, high load factor in 1962, as hoped for.
+       1961  +11200 A 11200KW low-pressure generator from the pilot hot-water plant added as stage 1A.
+       1962  +22400 Two more 11200KW generators added to station A as stage 2.
+    10/1962  +30000 Guessed date for the first 30MW mixed-pressure generator of stage 2 for station B.
+     2/1963  +30000 Guessed date for the second.
+    10/1963  +30000 Third and last unit of stage 2. Already, the supply of high-pressure steam was faltering.
+       1965  173000 Peak value attained, of actual generation.
+    11/1982  157200 Derating of the once high-pressure supply to intermediate pressure, removal of HP turbines, miscellaneous changes.
+       2005  +14000 Addition of a low-temperature isopentane system.
+
+Nominal.Hydro.Waikato.Atiamuri                 Head 80'
+ 17/11/1958   21000 First turbine, six months ahead of schedule.
+  6/12/1958  +21000 Second, early December. Power restrictions lifted for Christmas 1958.
+     2/1959  +21000 Third, early in the year.
+       1962  +21000 Fourth.
+
+Nominal.Geothermal.Kawerau                     Drilling began for the paper mill in late 1952, with steam supply since 1957 for process heat and electricity generation. Many bores, much piping. Subsequent power plants were outside the paper mill.
+       1960   10000 This may not have been the first electric power generation. Clear statements would help.
+       1980   39000 Guessed date. Miscellaneous generation within the timber mill. Nearly all is consumed internally.
+       1989   +2560 Two 1280KW isopentane turbines. TG1, also known as TOI for Tarawera ORMAT Installation.
+       1993   +3800 Two isopentane turbines running one generator. TG2. Also an "ORMAT" installation.
+     7/2008  +90000 Single turbine, high and low pressure steam. This is also outside the timber mill.
+   2/9/2008  +10000 After testing, re-rated to 100MW.
+     9/2008   +9000 Another ORMAT installation, adjacent to its well, KA24. Activity here seems secretive.
+     9/2009   -2000 Faltering supply and excessive pumice from well KA24 constrains its station. A replacement well is proposed.
+
+Nominal.Hydro.Wahapo                           Head ~90' Previously called Okarito Forks.
+       1960    2000 I'll guess that the original development was enlarged.
+       1990    3100 Redevelopment.
+
+Nominal.Thermal.Mangere                        Sewage treatment. All used internally, with heat recovery also.
+       1960     750 four mixed-fuel engines few sewage gas (~58% methane), 6% diesel ignition fuel.
+       2001    6800 four 1·7MW turbocharged 16 cylinder gas engines supplemented by about equal amounts of natural (non-modern sewage) gas, reduced to about a third in 2003 after fitting filters to block hydrogen sulphide and siloxane.
+
+Nominal.Hydro.Waikato.Ohakuri                  Head 115'
+  31/1/1961  112000 Four turbines.
+
+Nominal.Hydro.Waikato.Waipapa                  Head 53'
+  10/4/1961   51000 Three Kaplan turbines.
+
+Nominal.Hydro.Kuratau                          Head 210'
+     9/1962    6000 Two Boving horizontal Francis turbines.
+
+Nominal.Hydro.Mokauiti                         Head 140'
+       1963    1925 Two horizontal Francis turbines, 1295KW and 630KW.
+
+Nominal.Hydro.Waikato.Aratiatia                Head 110' Minimal local lake. The main storage is via lake Taupo.
+     3/1964   30000 First turbine.
+     4/1964  +30000 Second. Because of the increased flow due to the Tongariro diversions, a third turbine was added to the design.
+     5/1964  +30000 Third turbine. This marked the end of the Waikato development.
+
+Nominal.Hydro.Waitaki.Benmore                  Head 300' Massive earth dam.
+     1/1965   90000 First turbine.
+     3/1965 +180000 Second and third. The joint opening with the Cook Strait cable link was on the 15'th of May.
+    10/1965  +90000 Fourth.
+    12/1965  +90000 Fifth.
+     5/1966  +90000 Last.
+   5/8/2008  -90000 G5 Appears to be a closedown for refurbishment.
+  5/11/2008  -90000 G6 That is, refurbishment has been announced, but without details.
+ 12/ 1/2009 +100000 G5 revives after a hic on the 8'th.
+ 26/ 1/2009  -90000 G2 sleeps.
+ 26/ 3/2009 +100000 G6 revives after a burp on the 19'th.
+ 10/ 6/2009 +100000 G2 revives after a hic on the 9'th.
+ 29/ 6/2009  -90000 G4 sleeps.
+  2/11/2009 +100000 G4 revives after a hic on the 28'th October.
+ 17/11/2009  -90000 G3 sleeps after a twitch on the 16'th.
+ 12/ 4/2010 +100000 G3 revives after a hic on the 9'th.
+ 26/ 4/2010  -90000 G1 sleeps.
+ 14/ 9/2010 +100000 G1 revives after a hic on the 13'th. Possibly not to 100MW as 96 is the attained value in the data, and that is prior to the refurbishment...
+
+Nominal.HVDC.North.Pole1                       High Voltage Direct Current transmission link, Benmore - Haywards, pole 1.
+   1/4/1965  300000 Single pole operation. Each line is run at ±250KV, up to 1200 amps.
+     2/1992  540000 Mercury valves reconfigured to run +270KV and 2000 amps, though 1600 is the preferred limit.
+    10/2004  386000 One Cook Strait cable failed, limiting the whole to 886MW; I'll finger pole 1 as suffering.
+     3/2005  540000 Repaired. Details would be good.
+ 21/ 9/2007       0 Declared "stood down indefinitely" with fuss over mercury vapour possibly contaminating the country...
+    12/2007  270000 Revised as "warm standby", but one half of the parallel set of mercury valves were removed: half current presumably. Full current on the other?
+  1/ 7/2009  200000 Declared restrictions: only between 100 and 200MW, or presumably, zero.
+   1/8/2012@10:00 0 As per the words of Robbie Christillo (duty energy co-ordinator, Wellington): "It is with a heavy heart I issue this final instruction, 'Stop Pole One!'." Decommissioned, to be revived as pole "3".
+     3/2013  700000 Designed claim. 1,000MW for half an hour (Cook Strait cable insulation now solid plastic: no oil cooling)
+Nominal.HVDC.North.Pole2                       High Voltage Direct Current transmission link, Benmore - Haywards, pole 2.
+     6/1965  300000 Third Cook Strait cable recovered and repaired in May 1965; both lines operational.
+       1993  700000 Mercury valves moved to pole 1 (for parallel use) and replaced by thyristors running -350KV.
+       1997  500000 Cook Strait cable problems. Fixed when?
+  1/ 7/2009  700000 Declared capacity.
+Nominal.HVDC.South.Pole1                       High Voltage Direct Current transmission link, Haywards - Benmore, Pole 1.
+       1975  200000
+  1/ 7/2009       0 Declared incapable.
+     3/2013  700000 Designed claim.
+Nominal.HVDC.South.Pole2                       High Voltage Direct Current transmission link, Haywards - Benmore, Pole 2.
+       1975  200000
+  1/ 7/2009  666000 An odd choice of current for this, chosen by Ranil DaSilva (prime suspect) for transpower's engineers.
+
+Nominal.Hydro.Matahina                         Head 200'
+  25/1/1967   36000 First turbine.
+     2/1967       0 Leakage discovered, subsidence...
+     3/1967   36000 Lake refilled, sometime.
+     4/1967  +36000 Second turbine commissioned.
+    12/1987       0 Decomissioned in December for repairs after the Edgecumbe earthquake of the second of March.
+     6/1988   72000 Back in service.
+     6/1996       0 Lake lowered, decommissioned for strengthening.
+     9/1998   72000 Back again, lake refilled.
+
+Nominal.Thermal.Marsden.A                      Heavy oil fired, steam at 1000F, 1,525psi, cooled by sea water.
+     5/1967   120000 First turbine declared commissioned at the end of June.
+  31/1/1968  +120000 Second turbine. In time for the low-flow winter of 1969.
+       1980  -120000 Guessed time of one turbine being put into storage.
+       1985        . Guessed cessation.
+Nominal.Thermal.Marsden.B                      More of the same, but collapsed in dissension.
+     3/1979   120000 Commissioning began. Guessed month.
+     6/1979        . Mothballed, never fully used. The price of oil had shrugged off inflation, and the economy faltered.
+
+Nominal.Hydro.Waitaki.Aviemore                 Head 122'
+     8/1968  110000 Two turbines.
+     2/1969  +55000 Third.
+     7/1969  +55000 Last.
+%Turbine replacement completed in 2000 with a 5% gain. Efficiency? Max. output from same flow?
+
+Nominal.Thermal.Otahuhu.A                      Gas turbines. At first from Kapuni, expensive deisel during peak times. Originally named Otara, from its site.
+    12/1968   45000 First. Stal-Laval industrial gas turbine, with intercoolers. Fresh water.
+     6/1969  +45000 Second. Salt water from the Otara creek for the rest.
+     8/1969  +90000 Last two of the Swedish turbines. The modern numbering is that these are turbines 3, 4, 5, 6 whereas the later two are numbered 1, 2. See http://www.learnz.co.nz/daily.asp?id=281
+     6/1977  +46750 Rolls-Royce Olympus aero engine feeding a Curtiss Wright power turbine.
+    12/1977  +45750 Second such, though full commissioning was delayed to 1978-9.
+     5/2004       . Cessation of generation. However, the generators (detached from the gas turbine) are still spun so as to mess with the voltage/current phase angle, and consume energy to do so.
+
+Nominal.Hydro.Glenorchy                        Head 210' Pipeline from the Ox Burn dam.
+   8/2/1969     400 Francis turbine.
+     1/1994       0 Very heavy rain caused floods and landslides. Detritus reached the roofline of the powerhouse.
+    12/1994     400 Guessed date of revival, with a concrete wall surrounding the powerhouse.
+
+Nominal.Hydro.Manapouri                        Head 580', slightly affected by the 7' tide at Deep Cove.
+  14/9/1969  200000 Two turbines.
+    10/1969 +200000 Two more, the first stage.
+       1979  590000 Three more. The seven 100MW turbines could not be run at full power because of unexpectedly high back pressure from the tailrace tunnel.
+   5/5/2002  840000 A second tailrace tunnel, and uprating of the turbines to 120MW.
+
+Nominal.Hydro.Teviot.TeviotBridge              Head 300'
+       1972    1125
+
+Nominal.Hydro.Mangapapa.Upper                  Head 497' Lloyd Mandeno.
+   2/9/1972   15600 Two turbines. Headworks were not fully completed until December 1976, so, no generation until then?
+
+Nominal.Hydro.Tokaanu                          Head 682'
+     7/1973  100000 Two turbines. Drought in 1973 revived urgency.
+     9/1973  +50000 Third.
+     3/1974  +50000 Forth.
+       1996  240000 Volcanic ash from the 1995 Mount Ruapehu eruption damaged the turbines. Refurbished to 60MW.
+
+Nominal.Thermal.NewPlymouth                    Oil, then gas-fired. Steam turbines, 1000°F, 1,800psi, three stages, cooled by sea water.
+     2/1974  120000 First turbine.
+    10/1974 +120000 Second.
+     1/1975 +120000 Guessed timing of the third.
+     3/1975 +120000 "                     fourth.
+    10/1976 +120000 More guesses. An explosion in one furnace in June 1976 prompted modifications to the design and procedures.
+       1997 -120000 ? Otahuhu B  starts, unit 5 retracted to assuage Greenpeace troublemakers.
+       2002 -240000 Guessed timing of the withdrawal of two turbines. There may also have been a re-rating to 100MW each.
+    11/2007       0 Asbestos was "discovered", so the station was to be closed.
+     6/2008 +120000 High prices during the subsequent (uncorrelated...) shortage: asbestos no longer insurmountable.
+   1/1/2009       0 Profit-taking ceases on lower prices.
+
+Nominal.Thermal.Stratford.A                    Aero-derived Pratt&Whitney turbines, first fed Kapuni gas, later Maui and Waihapa gas.
+    12/1975   55000 First power in December. Commissioned February.
+     3/1976  +55000
+     6/1976 +110000
+    10/1998       . Off the books, according to Laurie Counsell.
+
+Nominal.Thermal.Whirinaki                      Aero-derived Pratt&Whitney turbines, fired by diesel.
+    11/1976   55000 First power.
+     3/1977  +55000 Guessed date for the second.
+     9/1977  +55000 Guessed date for the third.
+    12/1977  +55000 But fuel supply problems restrained full-power sustained use.
+       2001       . Deconstructed and bits sent to Oz.
+   1/6/2004  165000 Reconstructed, three 55MW diesel-fuelled gas turbines, as before.
+   %But, on the other hand...
+%29/ 7/2003 155MW oil                 Pete Hodgson        http://www.beehive.govt.nz/ViewDocument.aspx?DocumentID=17421
+%25/ 3/2004 155MW oil and gas plant                       www.worldenergy.org/wecnz/R_Hemmingway03/RHemmingway%20Seminar.pdf -
+% 1/ 6/2004 155MW diesel              Pete Hodgson        http://www.beehive.govt.nz/ViewDocument.aspx?DocumentID=19901
+% 5/10/2004 open cycle gas turbine    Quasar Electronics  http://qel.co.nz/index.cfm/Whats_New/Whirinaki.html
+%           The [three pairs of gas turbine] generators can run on diesel fuel or gas (in the future), and under full load, the six engines consume over 10,000 gallons of diesel per hour. http://www.pwrm.com/solutions/case_studies/contact_energy/
+% 6/12/2006 Oil-fired                 Nick Smith          http://theyworkforyou.co.nz/portfolios/climate_change/2006/dec/06/o01
+%           150MW Gas Turbine         K. Turner           http://www.esr.org.nz/events/even2005/RenewablesFuture.html
+%28/ 2/2007 fuel supply will be stored at two onsite tanks and two bulk storage tanks off-site   http://www.electricitycommission.govt.nz/opdev/secsupply/sos/whirinaki/
+%      2006 ... suppliers of diesel fuel                  www.treasury.govt.nz/budget2006/estimates/pdfs/est06ener.pdf
+
+Nominal.Hydro.Waitaki.Pukaki                   Head 480'
+     6/1977  160000 Two 80MW turbines, but 76-90MW depending on the height of lake Pukaki, varying ~45'.
+  9/ 1/2013       0 Proposed start of repairs and relining work on the canal was for the 14'th, but large inflows to lake Pukaki required a stop to water from the canal from lake Tekapo.
+     4/2013  160000 Estimated resumption of flow. Another outage is planned for next year.
+
+Nominal.Hydro.Waitaki.Ohau.A                   Head 190'
+     3/1979  264000 Four 66MW turbines. Water by canal from lake Pukaki and nearby, lake Ohau.
+
+Nominal.Hydro.Mangapapa.Lower                  Head 105'
+     4/1979    6250 Two turbines, one generator.
+
+Nominal.Hydro.Aniwhenua                        Head 125'
+       1980   25000 Two Francis turbines.
+
+Nominal.Hydro.Teviot.Ellis                     Head 675'
+       1981    6800 Two pelton wheels made in 1942, originally from Waipori.
+       1998    7800 Upgraded generators.
+
+Nominal.Thermal.Kerikeri                       Fuelled by wood waste at the sawmill.
+       1981      70 Wood-waste fuelled boiler for a steam engine.
+
+Nominal.Hydro.Ruahihi                          Head 280' Canal from Lake McLaren, superceding the McLaren Falls power station.
+  19/9/1981  20000 Official opening by R. Muldoon.
+  20/9/1981@1:50pm . Canal failure! Wipeout!
+       1983  20000 Recommissioned.
+
+Nominal.Thermal.Huntly                         Four three-stage 250MW steam turbines, inlet 1000°F and 2,300psi, cooled by Waikato river water. 2004 a gas turbine. 2007 a 385MW gas & steam turbine.
+    12/1981  100000 First power at partial oomph.
+     5/1982  250000 Full power.
+     6/1982  100000 Partial power. Problems with resonant vibrations and the earthquake-flexible mountings.
+     3/1983 +100000 Second turbine starts partial use. Official opening on the 9'th April 1983
+     9/1983  250000 First turbine commissioned.
+     3/1984  750000 Third turbine commissioned, presumably the others are also fully usable.
+       1985 1000000 Fourth turbine commissioned.
+     6/2004  +50000 Gas turbine for peak usage, presumably rated 40MW (as the project was called "P40") of the base design, but various options allow uprating.
+     6/2007 +385000 Gas-fired gas and steam turbine, air cooled. Attains 56% thermal efficiency.
+
+Nominal.Hydro.Montalto                         Head 23' Part of the Rangitata river diversion, ending at Highbank.
+     6/1982    1100 Rises to 1800 in winter, with no irrigation offtake.
+
+Nominal.Hydro.Teviot.Michelle                  Head 243'
+       1982    1600 Francis turbine.
+
+Nominal.Hydro.Flaxy                            Head ~130' Upcanal of Wheao.
+       1982    2100
+
+Nominal.Hydro.Rangipo                          Head 788' Underground power house.
+     5/1983   60000 First turbine. Problems with drainage, noise, ventilation...
+    11/1984  +60000 Second turbine, delayed delivery.
+     4/1996       0 Ash from eruptions at Ruapehu badly damaged the turbines
+     3/1997  120000 Resumption.
+
+Nominal.Hydro.Wheao                            Head ~400' Downcanal of Flaxy.
+       1983   24000 Two turbines. Destroyed by canal failure just before completion, 30'th December 1982.
+
+Nominal.Hydro.Waitaki.Ohau.B                   Head 157'
+     6/1983   53000 First turbine. Discharge to the river until Ohau C was ready.
+     8/1983  +53000 Guessed time of the second.
+    10/1983  +53000 And third.
+     3/1984  +53000 Last turbine in service.
+
+Nominal.Hydro.Argyle                           Head 70' Branch river diversion at the junction with the Wairau river.
+     8/1983    4000
+Nominal.Hydro.Wairau                           Head 135' Downcanal from Argyle.
+     6/1983    4000
+     %Official opening on 28'th April 1984.
+
+Nominal.Hydro.Patea                            Head 270' Earth dam, serious difficulties with leaks.
+     5/1984   30000 Three turbines, and not counting the 700KW auxiliary.
+
+Nominal.Hydro.Paerau                           Head ~425' Upcanal of Patearoa.
+       1984   10000
+
+Nominal.Hydro.Patearoa                         Head ~120' Downcanal of Paerau.
+       1984     2250
+
+Nominal.Hydro.Waitaki.Ohau.C                   Head 157' Same head as Ohau B.
+     3/1985   53000 First turbine.
+     6/1985  +53000 Guessed second.
+     8/1985  +53000 Guessed third.
+    12/1985  +53000 Last.
+
+Nominal.Thermal.Pukete                         Sewage digester gas, plus natural gas. Electricity generation and waste-heat use.
+       1985     230 Waukesha VHP2900G gas engine, run on digester and natural gas.
+     4/2000    1840 Two generators from Te Rapa refurbished to "as new".
+
+Nominal.Geothermal.Ohaaki                      HP turbines transferred from Wairakei.
+     2/1989   50000 Generation from two units, but which two? I'll guess half power. Generation started in the second half of 1988.
+     7/1989  116200 Nominally, 2×11·2 HP and 2×46·9 IP turbines. Official opening in October.
+       1996   80000 Falling pressure becomes definite, and hope falters.
+       2000   50000
+       2005   30000
+       2007   60000 Additional bore holes.
+
+Nominal.Thermal.Otahuhu.B                      Two cycle: gas turbine, exhaust heat boiler, steam turbine.
+    12/1999  380000 Siemens gas turbine, steam turbine.
+       2005  404000 Undescribed upgrade. Vague PR blurbs do not offer definite numbers.
+    12/2009       0 Planned outage.
+     3/2010  404000 Resumption, after a two-month extension.
+
+Nominal.Thermal.TeRapa                         Dairy factory.
+     4/1991    1800 Two natural gas piston engines.
+       1999   44000 Gas turbine, with heat recovery for process steam. 15MW used in the factory, ~30MW to the grid.
+
+Nominal.Thermal.Rosedale                       Landfill gas.
+       1991    2760 Three Waukesha VHP7100GLD piston engines fed landfill gas of 42-55% methane, no heat recovery.
+
+Nominal.Hydro.Clutha.Clyde                     Head 335' Water use constraints limit production to 432MW, however all turbines have achieved 120MW, and the total has exceeded 480MW.
+     5/1992  120000 The turbines are actually 120MW, but water use contraints limit the total power to 432MW, thus 108MW supposedly, per turbine.
+     6/1992 +120000
+    10/1993 +120000
+     1/1994  480000
+
+Nominal.Thermal.Greenmount                     Landfill gas. Established 1980, closed July 2005.
+     6/1992    5500 Six Waukesha VHP7100GLD piston engines fed landfill gas (42-55% methane).
+
+Nominal.Wind.Brooklyn                          Installed to propagandise and obtain data. Most data has been lost in re-organisations.
+       1993     225 It would be nice to have a date.
+    12/2010       0 Some sort of breakdown.
+
+Nominal.Thermal.Silverstream                   Landfill gas.
+       1994    2700 Three Waukesha VHP7100GLD piston engines  fed landfill gas of 42-55% methane, no heat recovery.
+
+Nominal.Thermal.TeAwamutu                      Dairy factory co-generation. Originally coal-fired boilers, but concerted to natural gas with the co-geeration plan.
+       1995   27000
+       2008       . One data series has zeroes starting 24/5/2007, another dribbles until March 2008 without stopping, and, its data supply has been cut off thanks to Ron Beatty et al.
+
+Nominal.Thermal.Bromley                        Sewage digester gas.
+     1/1996    1550 Waukesha 8LAT27GL piston engine.
+
+Nominal.Geothermal.Poihipi                     Originally built for the Geysers geothermal field in the U.S.A, but never run.
+       1996   55000 Steam supply limits constrain full power to about fourteen hours a day.
+
+Nominal.Thermal.Whareroa                       Co-generation for the dairy factory.
+       1996   20000 Two gas turbines, "Solar Mars".
+       1997  +49000 Added 2×10·5MW gas turbines (the generators are rated at 12·5MW, it seems) with a 28MW steam turbine.
+
+Nominal.Thermal.Edgecumbe                      Co-generation at the dairy factory.
+       1996   10000 Two turbines. Gas-fired, presumably. Steam from exhaust heat for process use, no mention of generation as well.
+
+Nominal.Wind.HauNui                            Wind farm, two stages.
+       1996   3850  Seven 550KW turbines.
+    12/2004  +4800  Add eight 600KW turbines for 8650KW. Odd surge, early 2005, stable July 2005, retraction in ~August 2007?
+
+Nominal.Geothermal.Rotokawa                    Unusually hot high-pressure steam.
+     9/1997   24000 16MW steam turbine, exhaust boiling isopentane for the second stage: two generators of 4-6·5MW depending on air temeperature, a third using the hot brine from the steam flasher.
+    12/2002   34000 A fourth for the second stage. Accountancy is unclear, and there is a lot of power needed for pumps and fans that may wrongly not be subtracted from the power sent to the outside world.
+
+Nominal.Thermal.Southdown                      Supplies steam for nearby industry.
+       1997  125000 Gas-fired steam turbine.
+     1/2007  175000 Expansion of plant. Guessed from the data series, with doubts.
+
+Nominal.Thermal.Kinleith                       Timber mill: wood waste plus natural gas.
+       1998   35000
+
+Nominal.Thermal.Kapuni                         Kapuni gas treatment plant. A miscellany of two 10·5MW gas turbines, exhaust heats steam for a 1·5MW turbine, steam also goes to the nearby dairy factory with 3·5MW generated.
+       1998   26000 Miscellaneous components, unspecified timetable.
+
+Nominal.Geothermal.Ngawha                      Unusually high emissions of carbon dioxide.
+     6/1998   10000 Pentane boiled by geothermal heat from two 5MW units. Air cooled.
+     8/2008  +15000 Expansion.
+
+Nominal.Thermal.Stratford.B                    One gas and one steam turbine, both on the one shaft, air cooled.
+  23/2/1998  240000 Gas turbine of 240MW, exhaust heat steam turbine of 120MW, both on one shaft with the generator.
+  27/3/1998  360000 Big surge today, so I'll say both turbines were working.
+       2005  377000 Undescribed upgrade.
+       2008  380000 An "efficiency improvement" is talked about, but, is undescribed.
+
+Nominal.Solar.Rangiora                         Somewhere in the high school
+  4/ 2/1999       5 Annual saving of $3500 declared.
+
+Nominal.Hydro.Opuha                            Head 160' Overwhelmed by a flood during construction, 6'th Feb 1997. Assorted excitements follow. River flow restrictions usually limit full-power generation to bursts of a few hours at a go.
+    11/1999    7500 Reconstruction began in early 1998 and this time attained commissioning.
+ 13/01/2001       0 The washout weir washed out.
+     4/2001    7500 I'll guess resumption.
+    11/2003       0 Fire destroyed the generators! Or possibly in 2005.
+       2004    7500 I'll guess the recovery date.
+ 17/05/2009@6:10  0 Another washout.
+     8/2009    7500 Another guess.
+
+Nominal.Hydro.Kirikau                          Head ~130' Farmer Robert Carter.
+       1999       1.5
+
+Nominal.Thermal.Redvale                        Landfill gas. Established August 1993. Passive gas collection with flaring began 1996, active collection November 1998; flaring converted to leachate evaporation in June 1999.
+     11/1999   1000 First generator in "late 1999", so I'll say November. Expected to peak at 15MW, with 25MW heat available also.
+        2002   3000 Three 48 litre V20 GE Jenbacher 320 piston engines.
+        2006   6000 I'll guess, rather than just have a lurch.
+        2009   9000 A mention of 9MW in 2009.
+        2011  11000 Three more in 2011.
+        2012  12000 So I'll stick with one a year.
+
+Nominal.Geothermal.Mokai                       Waste fluids reinjected, waste gases to the atmosphere.
+    12/1999   56000 A 29MW steam turbine exhausting to four 6MW air-cooled isopentane plants, a further two warmed by the hot brine from the steam separators.
+     4/2005   95000 Mokai II added.
+       2007  +17000 Modifications to the first turbine, add another ORMAT set. (More steam, less water - extraction lowers the water level)
+
+Nominal.Wind.Tararua                           Wind farm in multiple stages.
+       1999   31680 No information on the start times. 48×660KW. But 31280 is the maximum in these times.
+   1/3/2004  +10000 Expansion begins.
+   1/4/2004  +10000
+   1/5/2004   67980 Stage two appears complete. Add 55×660KW for 67·980MW. But 66·870MW max.
+   1/3/2007  +20000 Stage three commences, Add 31×3MW turbines for 93MW.
+     4/2007  111000
+     5/2007  125000
+     6/2007  128000
+     7/2007  160980 Presume completion of stage three, for 160·98MW, nominally. But 153·384 max.
+  14/8/2007  -20000 Appears to be a retraction.
+     6/2008  +20000 Appears to recover. But from May 2009, there is excess generation, possibly due to the possible inclusion of Te Rere Hau.
+
+Nominal.Hydro.Teviot.HorseshoeBend             Head 280' Tunnel then pipeline to the powerhouse well downstream.
+     5/1999    4315 Francis turbine 600rpm, generation at 6600V.
+
+Nominal.Thermal.ComicalHill                    Blue Mountain Lumber. Wood waste.
+       2000    1400 Steam turbine, from ~10MW boiler.
+
+Nominal.Hydro.Waihi                            Head ~300'
+  1/12/2001@6:30am 5000 Apparent start. Details would be good.
+
+Nominal.Hydro.Mangapehi                        Head ~240'
+       2002    3000 Two generators.
+
+Nominal.Hydro.Falls                            Head 100' Irrigation dam near St. Bathans, Otago.
+       2003    1250 Since 1935 an irrigation storage dam.
+
+Nominal.Wind.GebbiesPass                       Wind turbine, test installation.
+   6/6/2003     100 First test squirts to the national grid.
+   9/6/2003     200 Official opening, not yet at full capacity.
+     8/2003     500 Sometime around this, full power was available.
+ 11/11/2003       0 Stopped, for noise level adjustment.
+    12/2003     500 Restarted sometime, since what follows is a closedown.
+   3/4/2004       0 After various modifications and test runs...
+   5/7/2004     500 On the go again.
+ 19/10/2004       0 Minor repairs and fiddles...
+  1/12/2004     500 On the go again.
+ 14/12/2004       0 Improvements to lubrication, messing with the gearbox.
+     1/2005     500 On again. Sometime.
+  10/3/2005       0 Wrenched apart by wind swirl!
+     5/2005     500 Back to life, sometime.
+
+Nominal.Thermal.Mokoia                         Gas engines fed from byproducts of the oil/gas processing station at Mokoia Road.
+     4/2002    1250 Two 625KW gas engines.
+
+Nominal.Wind.TeApiti                           Wind farm 55×1·65MW for 90·75MW.
+  21/7/2004   13200 First twitch in the data, for about one hour. Followed by zeroes and a calmer start on Monday 26'th.
+     8/2004   37300 These are monthly maxima from the supplied half-hourly data.
+     9/2004   63500 In the absence of a schedule of windmill conection counts.
+    10/2004   88400
+    11/2004   89096 Never again attained.
+    12/2004   88000 Seems to be the upper bound now. No advice on any change to operational settings.
+     3/2006   69400 Sudden cutback. No description of maintenance or withdrawal.
+     7/2006   80000 Nor of return to service.
+     4/2007   86000 Nor of any new operational levels.
+
+Nominal.Thermal.Horotiu                        Landfill gas.
+    11/2004     900  Waukesha VHP5904LTD piston engine fed landfill gas of 42-55% methane, no heat recovery.
+
+Nominal.Wind.Southbridge                       Lonely Tellus turbine. Lattice tower.
+     3/2005     100 Fist commissioned in Denmark, 1995.
+
+Nominal.Hydro.TotoraValley                     Rather local.
+     1/2006       2
+
+Nominal.Thermal.Awapuni                        Landfill gas from a retired but still festering landfill.
+     4/2006     970 Deutz gas engine using ~590 cubic metres/hour, surplus gas flared. Official opening 22'nd February 2007.
+
+Nominal.Wind.TeRereHau                         Wind farm. 97×500KW, initially five wind turbines so 2·5MW, but only 1MW can be sent along its connection. Expansion and reconnection late 2009, but details are unclear.
+  29/8/2006      50 First burble.
+   1/9/2006     300 Fuller power tried.
+  12/9/2006     500 First attainment of 500KW, presumably from the first turbine.
+  14/9/2006    1000 Looks like a second turbine.
+  15/9/2006    2500 Initially five turbines, but only one MW can be sent forth.
+       2008  +14000 "Batch two":  Twenty-eight additional turbines, revised connection arrangements, unknown details.
+     1/2009   +4000 "Batch three":Thirty-two turbines added in 2009, starting in January, ending in November.
+     5/2009   +4000               Guess.
+     8/2009   +4000               Guess, since they didn't all start in January or in November.
+    11/2009   +4000               Completed in November.
+  16/3/2011   +4500 "Batch four": Nine of the further thirty-two turbines declared commissioned, nine more under testing.
+     4/2011   +4500               I'll guess the other nine were active. Fourteen to go.
+  30/6/2011   +6500               Now thirty-one of the thirty-two are fully commissioned.
+   7/7/2011    +500               The last passed its final commissioning test.
+%Taking the count to the full 97 allowed in the consent.
+
+Nominal.Wind.WhiteHill                         Wind farm. 29×2MW for 58MW.
+   1/6/2007    2000 First twitch in the supplied data.
+   4/6/2007    4000
+  11/6/2007    6000
+  16/6/2007    8000
+  22/6/2007   14000
+  27/6/2007   16000
+  30/6/2007   18000
+  22/7/2007   22000
+     8/2007   44000
+    10/2007   55000 Appears to be the upper bound.
+
+Nominal.Thermal.Burwood                        Landfill gas, for the Queen Elizabeth II sports stadium: power and exhaust heat, more gas is burnt for direct heat.
+  22/6/2007     230 Waukesha gas engine, other gas is burnt directly to heat boilers.
+
+Nominal.Thermal.Owhiro                         Landfill gas.
+  3/ 4/2008    1065 Piston engine.
+
+Nominal.Thermal.Mangahewa.McKee                The McKee "Production station" by Mangahewa. Sent forth at 11KV for 2MW from McKee (exhaust heats water for process use), 33KV for 9MW from "Mangahewa", also within the McKee Production Station fence.
+     4/2008    2000 Mangahewa/McKee: two piston engines modified to use the "waste" gas "as is" (with carbon dioxide, etc), exhaust heat is used to heat water for process use.
+     4/2009   +9600 Mangahewa: three 3·2MW piston engines adjusted to use gas as supplied by the Mangahewa 3 well. No apparent interest in exhaust heat.
+Nominal.Thermal.Mangahewa.Grid                 Two 50MW gas turbines, SSE of the McKee "production station".
+   17/9/2012   50000 Two 50MW gas turbines, under construction and supposed to be ready for winter. Which winter?
+     10/2012  +50000 Generation data first arrived for September. I'll guess the second turbine will manifest in the previously-claimed Octoberish.
+
+Nominal.Hydro.Mangaio                          Head ~165'
+     5/2008    2000 Expected start date.
+
+Nominal.Hydro.DeepStream                       Head 460' and 435' at two power stations with long canals.
+     5/2008    3100 Francis turbines, with generators from the Lake Coleridge station.
+     5/2008   +2850 The generator may be 3·1MW, but the turbine isn't, and the turbine manufacturer should know. See http://www.hydroworks.co.nz/download/Deep_Stream_A.pdf
+
+Nominal.Thermal.Whitford                       Landfill gas. Established 1953, modern style since July 1994. Supplies the 11KV network.
+     2/2002    2000 Two piston engines.
+       2003    3000 A third engine
+
+Nominal.Thermal.Tirohia                        Landfill gas, expansion expected.
+     9/2008    2000 Waukesha APG1000 48 litre V16 1,500RPM, ~42% efficient. A month of testing, commissioned ~22/10/2008.
+
+Nominal.Wind.Seaview                           Demonstration installation, "Proven" wind turbine, no gearbox. Three-blade, tower mounted.
+  8/ 8/2008       6 Made in Scotland.
+
+Nominal.Solar.Auckland.Airport                 Auckland Airport Pier B expansion.
+    10/2008   50.75 From the declared 300 square metres. Opened in October.
+
+Nominal.Wind.Makara                            Makara wind farm ("West Wind") 62×2·3 = 142·6MW, but peaking at 134·4 so far.
+   7/3/2009@1pm 2300 First turbine starts generating.
+  17/3/2009   +2300 A second.
+  18/3/2009   +2300 A third?
+  21/3/2009   +2300 A fourth?
+  25/3/2009   +2300 A fifth.
+  26/3/2009   +2300
+   9/4/2009   23000 Around ten.
+  26/4/2009   32200 Around 14.
+  29/4/2009   34500 Official opening, with fifteen turbines.
+  11/5/2009   46000 Around 20.
+   1/6/2009   60000
+   1/7/2009   80000
+  15/7/2009   90000
+  20/8/2009  100000
+   1/9/2009  110000
+  1/10/2009  142600 Full nominal rating, but 134400 is the maximum seen so far.
+       2010   -4600 Vague talk that at any time, two turbines are u/s.
+
+Nominal.Solar.ManaIsland                       Department of Conservation Building, Mana Island.
+     5/2009     2.9
+
+Nominal.Thermal.HamptonDowns                   Landfill gas. Established July 2005.
+     3/2009    2000 Two Waukesha APG1000 piston engines.
+     4/2010   +2000 Two more.
+
+Nominal.Hydro.Matawai                          Head 512' Weir then pipeline. No storage.
+  1/ 8/2009    2000 Two pelton wheels.
+
+Nominal.Wind.HorseshoeBend                     Wind farm. 3×750KW = 2·25MW
+ 26/10/2009     750 First turbine.
+ 29/10/2009    +750 Second.
+     1/2010    +750 Third ("mid January") Three turbines, originally installed in Germany, sold to Japan, then on to N.Z..
+
+Nominal.Wind.ChathamIsland                     Wind farm. 2×225KW = 450KW, supplements diesel of ~400KW capacity.
+     6/2010     450 Two turbines.
+
+Nominal.Solar.Mangere                          Hubbard Foods factory.
+     7/2010      29 Thin-film PV in 160 panels comprising 227·5 square metres.
+
+Nominal.Geothermal.Rotokawa2                   Second development. (Nga Awa Purua)
+  18/1/2010  132000
+
+Nominal.Wind.WeldCone                          Wind farm. 3×250KW = 750KW
+   8/2/2010     750 Three second-hand turbines.
+
+Nominal.Geothermal.Tauhara.TeHuka              Initially named Centennial Drive.
+     4/2010   23400 Steam and organic vapour low-temperature, air cooled.
+
+Nominal.Hydro.Cleardale                        Unknown head, somewhere on the Little River. A steep mountainside. Most water is for irrigation.
+ 23/12/2010     900
+
+Nominal.Hydro.TallaBurn                        Head ~720'
+ 10/11/2010    2000 Another long water race across the Otago hills.
+
+Nominal.Wind.TeUku                             Wind farm. 28×2·3 = 64·4MW.
+ 17/11/2010    2300 Reported that the first turbine began generation.
+     2/2011   46000 Reported 20 commissioned.
+ 10/ 3/2011   64400 Reported completion.
+
+Nominal.Thermal.Stratford.C                    Gas turbines.
+ 25/11/2010  100000 First turbine. LMS100 "quick start".
+     1/2011 +100000 Possibly the activation of the second.
+
+Nominal.Wind.Lulworth                          Wind farm. 4×250KW = 1MW. Ex-Denmark.
+     1/2011    1000 Four 250KW Micon 350 wind turbines.
+
+Nominal.Thermal.BreamBay                       Five 1·8MW diesels.
+     7/2011    9000 A date would be good.
+
+Nominal.Wind.Mahinerangi                       Wind farm. 12×3 = 36MW. Further turbines are allowed.
+  18/2/2011@3pm  6000 Turbines 7 and 9 generating.
+   1/3/2011     +6000 Turbines 12, 11, 10, 8 start generating on Tuesday-Wednesday.
+   2/3/2011     +6000 So the other two on Wednesday?
+  10/3/2011     +6000 Turbines 6 & 4. (No mention of 5)
+  18/3/2011     +6000 Turbines 3 & 2.
+  19/3/2011     +3000 Turbine 1.
+   1/4/2011     36000 Fully commissioned in March sometime.
+
+Nominal.Solar.Drury                            South Auckland Forgings Engineering (SAFE or S.A.F.E.)
+     2/2011     10    First connection.
+   1/4/2011     62.40 Two rows of solar panels, 68KW nominally, supplying six 10KW three-phase inverters.
+
+Nominal.Hydro.SpeediesRoad                     Head 130' Riverside intake: no storage. Also known as Speedy's Road.
+ 14/ 6/2011      2000 Twin Francis turbines, one generator.
+
+Nominal.Wind.MountStuart                       Wind farm. 9×850KW = 7·65MW. Gamesa turbines from Spain.
+    11/2011      4250 Five turbines spinning, according to a Waitahuna schoolkid.
+  1/12/2011      7650 "Turbine commissioning was completed by the start of December." Some fancy "official opening" in June.
+
+Nominal.Solar.Lyttelton                        Lyttleton Main School.
+     5/2012         9 Two rows of 42 panels, though I see only two rows of 14 panels in the photo...
+
+Nominal.Geothermal.Ngatamariki                 Somewhere mear the hot springs.
+       2013      82000 Another ORMAT. Expected commissioning mid 2013.
+
+%Nominal.Wind.Ohariu                           Ohariu wind farm ("Mill Creek") 26×2·3 = 59·8MW. Siemens. Proposed 31 turbines.
+%       2014     59800 Expected commissioning in November or December.
