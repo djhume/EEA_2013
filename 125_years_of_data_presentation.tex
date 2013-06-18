@@ -47,15 +47,20 @@
 
 
 \frame
-{\frametitle{My home energy monitor -- Current Cost (EnviR+RaspberryPi)}
+{\frametitle{My home energy monitor -- Current Cost + RaspberryPi}
 \begin{columns}[t]
   \column[T]{5cm}
-  Current Cost + energy monitor
+  Current Cost energy monitor
       \includegraphics[width=5.0cm]{wpid-20130116_080753.jpg} 
   \column[T]{5cm}
-  \vspace{15mm}
+  \vspace{5mm}
   Raspberry Pi computer
   \includegraphics[width=5.0cm]{RaspberryPi.jpg}
+  \begin{itemize}
+  \item Python script
+  \item MySQL database
+  \item iPython
+  \end{itemize}
 \end{columns}
 }
 
@@ -199,7 +204,7 @@ Nominal.Hydro.Wellington.PanamaStreet          Head ~100'? Water main supply, di
 
 
 \frame
-{\frametitle{Historic data, NominalGenerationCapacity.txt (CDS)}
+{\frametitle{Historic data, example, Cobb)}
 \begin{center}
 \includegraphics[height=7.5cm]{cobb.jpg} 
 \end{center}
@@ -487,9 +492,9 @@ Nominal.Hydro.Karaponga                        Head ~30 feet. Guesswork: the dam
 \begin{itemize}
    \item[--] results more statistically conclusive 
    \item[--] size of transmission outages, in terms of secondary equipment, is on the increase
-   \item[--] Average rate of growth around 14 additional secondary outages per year, over past 13 years
+   \item[--] Average rate of growth $\approx$14 additional secondary outages/year, over past 13 years
    \item[--] 95\% confidence interval indicates between 7 and 21 additional outages per year
-   \item[--] \textbf{Conclusion:} More secondary assets are being tripped.  Why? 
+   \item[--] \textbf{Conclusion:} More secondary assets are being tripped?  \textbf{Why?} 
 \end{itemize}
 \end{frame}
 
@@ -512,7 +517,6 @@ Nominal.Hydro.Karaponga                        Head ~30 feet. Guesswork: the dam
   \frametitle{Real-time spot market monitoring}
 
 \begin{itemize}
-   \item[--] EA Market Performance team setup to monitor real-time prices
    \item[--] fully open source Python based system developed:
    \begin{itemize}
        \item[--] connects to the NZX WITS FTP server
@@ -545,6 +549,10 @@ Example: Weekly horizon charts, updated every 5 minutes (Hawkes Bay GXPs)
   \vspace{0mm}
      \includegraphics[height=7.5cm]{./nz_price_2.png} 
 \end{columns}
+\begin{tikzpicture}[remember picture,overlay]
+\node (feb22) [xshift=5.5cm,yshift=2cm] at (current page.south west) [above right] {\includegraphics[height=1cm]{download.jpg} 
+};
+\end{tikzpicture}
 
 }
 
